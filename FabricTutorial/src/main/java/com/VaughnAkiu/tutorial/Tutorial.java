@@ -1,5 +1,6 @@
 package com.VaughnAkiu.tutorial;
 
+import com.VaughnAkiu.tutorial.registry.ModBlocks;
 import com.VaughnAkiu.tutorial.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -11,5 +12,6 @@ public class Tutorial implements ModInitializer
     public void onInitialize()
     {
         ModItems.registerItems();
+        ModBlocks.registerBlocks();
     }
 }
